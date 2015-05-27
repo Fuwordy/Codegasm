@@ -13,7 +13,7 @@ namespace JerrysCoolAppCode
         // Function (entry point)
         static void Main(string[] args)
         {
-            PrintFooToScreen100Times();
+            PrintFooToScreen100000Times();
 
             Console.WriteLine("Type a number, any number?");
             ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -36,9 +36,9 @@ namespace JerrysCoolAppCode
             Console.WriteLine("Foo");
         }
 
-        static void PrintFooToScreen100Times()
+        static void PrintFooToScreen100000Times()
         {
-            for(int counter=0; counter <= 100; counter++)
+            for(int counter=0; counter <= 100000; counter++)
             {
                 PrintFooToScreen();
             }
